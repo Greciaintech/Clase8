@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase8</title>
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-fondo text-white-50">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-menu fs-5 py-3 shadow" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="img/logo.svg" alt="logo" width="200"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Tendencias</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Generos TV
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Genero 1</a></li>
+                      <li><a class="dropdown-item" href="#">Genero 2</a></li>
+                      <li><a class="dropdown-item" href="#">Genero 3</a></li>
+                      <li><a class="dropdown-item" href="#">Genero 4</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Generos Cine
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Genero 1</a></li>
+                      <li><a class="dropdown-item" href="#">Genero 2</a></li>
+                      <li><a class="dropdown-item" href="#">Genero 3</a></li>
+                      <li><a class="dropdown-item" href="#">Genero 4</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-disabled="true">Contacto</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+
+        <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/b1.png" class="d-block w-100" alt="king kong vs godzilla banner">
+              </div>
+              <div class="carousel-item">
+                <img src="img/b2.png" class="d-block w-100" alt="kung fu panda banner">
+              </div>
+              <div class="carousel-item">
+                <img src="img/b3.png" class="d-block w-100" alt="dune 2 banner">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+
+
+       
+        <h3 class="text-center py-5 fw-bold">Tendencia en el Cine</h3>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card shadow h-100" data-bs-theme="dark">
+                        <div class="card-header p-0">
+                            <img src="img/p1.jpg" alt="p1" class="img-fluid">
+                        </div>
+                        <div class="card-body text-center">
+                            <p class="lead">El reino del planeta de los simios</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#exampleModal">Modal</a>
+                            <a href="#" class="btn btn-outline-danger">Detalle</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card shadow h-100" data-bs-theme="dark">
+                        <div class="card-header p-0">
+                            <img src="img/p2.jpg" alt="p1" class="img-fluid">
+                        </div>
+                        <div class="card-body text-center">
+                            <p class="lead">Los descendientes: Corazón rebelde</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#" class="btn btn-outline-info">Modal</a>
+                            <a href="#" class="btn btn-outline-danger">Detalle</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card shadow h-100" data-bs-theme="dark">
+                        <div class="card-header p-0">
+                            <img src="img/p3.jpg" alt="p1" class="img-fluid">
+                        </div>
+                        <div class="card-body text-center">
+                            <p class="lead">Garfield: La película</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#" class="btn btn-outline-info">Modal</a>
+                            <a href="#" class="btn btn-outline-danger">Detalle</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card shadow h-100" data-bs-theme="dark">
+                        <div class="card-header p-0">
+                            <img src="img/p4.jpg" alt="p1" class="img-fluid">
+                        </div>
+                        <div class="card-body text-center">
+                            <p class="lead">Desaparecidos en la noche</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#" class="btn btn-outline-info">Modal</a>
+                            <a href="#" class="btn btn-outline-danger">Detalle</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card shadow h-100" data-bs-theme="dark">
+                        <div class="card-header p-0">
+                            <img src="img/p5.jpg" alt="p1" class="img-fluid">
+                        </div>
+                        <div class="card-body text-center">
+                            <p class="lead">Bikeriders. La ley del asfalto</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#" class="btn btn-outline-info">Modal</a>
+                            <a href="#" class="btn btn-outline-danger">Detalle</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card shadow h-100" data-bs-theme="dark">
+                        <div class="card-header p-0">
+                            <img src="img/p6.jpg" alt="p1" class="img-fluid">
+                        </div>
+                        <div class="card-body text-center">
+                            <p class="lead">Divorcio en negro</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#" class="btn btn-outline-info">Modal</a>
+                            <a href="#" class="btn btn-outline-danger">Detalle</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card shadow h-100" data-bs-theme="dark">
+                        <div class="card-header p-0">
+                            <img src="img/p7.jpg" alt="p1" class="img-fluid">
+                        </div>
+                        <div class="card-body text-center">
+                            <p class="lead">Furiosa: De la saga Mad Max</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#" class="btn btn-outline-info">Modal</a>
+                            <a href="#" class="btn btn-outline-danger">Detalle</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card shadow h-100" data-bs-theme="dark">
+                        <div class="card-header p-0">
+                            <img src="img/p8.jpg" alt="p1" class="img-fluid">
+                        </div>
+                        <div class="card-body text-center">
+                            <p class="lead">Superdetective en Hollywood: Axel F.</p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="#" class="btn btn-outline-info">Modal</a>
+                            <a href="#" class="btn btn-outline-danger">Detalle</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="bg-black">
+        <div class="container">
+            <footer class="py-3 my-4">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-light">Inicio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-light">Tendencias</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-light">Generos TV</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-light">Generos Cine</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-light">Contacto</a></li>
+                </ul>
+                <p class="text-center text-white-50">© 2024 Grecia Figueroa</p>
+            </footer>
+        </div>
+    </footer>
+
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-theme="dark">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Detalle de la Película</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-4">
+                <img src="img/mod1.jpg" alt="" class="img-fluid img-thumbnail">
+            </div>
+            <div class="col-md-8">
+                <h4><b>Título:</b> El reino del planeta de los simios</h4>
+                <h4><b>Cine o TV:</b> Cine</h4>
+                <h4><b>Título Original:</b> Kingdom of the Planet of the Apes</h4>
+                <h4><b>Género:</b> Ciencia ficción, Aventura</h4>
+                <h4><b>Producida en:</b> United States of America</h4>
+                <h4 class="mb-5"><b>Popularidad: </b><span class="badge rounded-pill text-bg-danger">7.046</span></h4>
+                <hr>
+                <p><b>Reseña:</b> Ambientada varias generaciones en el futuro tras el reinado de César, en la que los simios son la especie dominante que vive en armonía y los humanos se han visto reducidos a vivir en la sombra. Mientras un nuevo y tiránico líder simio construye su imperio, un joven simio emprende un angustioso viaje que le llevará a cuestionarse todo lo que sabe sobre el pasado y a tomar decisiones que definirán el futuro de simios y humanos por igual.
+                </p>
+                <hr>
+                <div class="text-end mt-4">
+                    <a href="#" class="btn btn-outline-danger btn-lg">Alquilar</a>
+                </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        
+
+
+
+
+
+    <script src="vendor/bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>
